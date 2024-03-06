@@ -19,4 +19,13 @@ void dataTypes() {
   print(numbers); // [1, 2, 3, 4, 5]
 
   print("Hello my age is $age! and next year I will be ${age + 1} years old.");
+
+  var oldFriends = ['Alice', 'Bob', 'Charlie'];
+  var newFriends = [
+    'David',
+    'Edward',
+    'Frank',
+    for (var friend in oldFriends) '💖 $friend'
+  ];
+  print(newFriends); // [💖 Alice, 💖 Bob, 💖 Charlie]
 }

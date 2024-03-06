@@ -18,5 +18,5 @@ void dataTypes() {
   // numbers.add('hello'); // Error: The argument type 'String' can't be assigned to the parameter type 'int'.
   print(numbers); // [1, 2, 3, 4, 5]
 
-  print("Hello my age is $age!");
+  print("Hello my age is $age! and next year I will be ${age + 1} years old.");
 }

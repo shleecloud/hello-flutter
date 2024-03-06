@@ -1,5 +1,4 @@
 import 'package:dart_basic/dart_basic.dart' as dart_basic;
+import 'package:dart_basic/variables.dart' as variables;
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_basic.calculate()}!!!');
-}
+void main() {}

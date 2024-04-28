@@ -25,4 +25,6 @@ class ApiService {
 
     return webtoonInstances;
   }
+
+  static Future<>
 }
